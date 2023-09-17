@@ -1,0 +1,29 @@
+header {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 4vh;
+    padding: 30vh 12vw !important;
+
+    background-image: url('/html/img/hero.jpg');
+    background-repeat: no-repeat;
+    background-attachment: inherit;
+    background-position: center;
+    background-size: cover;
+}
+
+header h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    text-wrap: nowrap;
+}
+
+header span {
+    font-size: 1.1rem;
+    font-weight: 400;
+}
