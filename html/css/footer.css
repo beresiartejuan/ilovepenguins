@@ -1,0 +1,21 @@
+footer {
+    background-color: #14171c;
+    padding: 20vh 0 25vh 0 !important;
+    gap: 10vh;
+}
+
+footer h3 {
+    color: #fff;
+    font-size: 3rem !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+footer .links a {
+    color: #fff;
+    padding: 2.5vh 2vw;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    text-decoration: none;
+}
