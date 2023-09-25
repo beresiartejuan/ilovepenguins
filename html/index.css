@@ -28,19 +28,12 @@ main footer {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 600;
     color: #1a1a1a;
-
-    padding: 1.1vh 1.1vw;
+    font-size: 1.1rem;
+    text-decoration: none;
+    padding: 1.8vh 1.8vw;
 }
 
-@media screen and (max-width: 1500px){
-
-    .button {
-        padding: 1.5vh 1.5vw;
-    }
-
-    .button.secondary {
-        font-size: 1rem !important;
-    }
+@media screen and (min-width: 1500px){
 
     main header,
     main section,
@@ -51,22 +44,13 @@ main footer {
 }
 
 .button.primary {
-    font-size: 1rem;
-
     background-color: #fcaf3b;
-
     border: solid 2px #fcaf3b;
 }
 
 .button.secondary {
-
-    font-size: 1.1rem;
-
     background-color: transparent;
-
     border: solid 2px #2b2b2b;
-
-    text-decoration: none;
 }
 
 .button.secondary:hover {

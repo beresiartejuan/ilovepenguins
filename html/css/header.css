@@ -5,7 +5,7 @@ header {
     align-items: center;
     flex-direction: column;
     gap: 4vh;
-    padding: 30vh 12vw !important;
+    padding: 25vh 7vw 25vh 7vw !important;
 
     background-image: url('/html/img/hero.jpg');
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@ header {
 
 header h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 4rem;
+    font-size: 4.2rem;
     font-weight: 600;
     margin: 0;
     padding: 0;
@@ -24,6 +24,13 @@ header h1 {
 }
 
 header span {
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 1.1rem;
-    font-weight: 400;
+    line-height: 1.8rem;
+    font-weight: 500;
+    direction: ltr;
+}
+
+header .buttons {
+   margin: 7vh 0 0 0;
 }
